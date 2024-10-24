@@ -1,0 +1,86 @@
+{
+    "interfaces": [
+        {
+            "functionName": "StartConversation",
+            "parameters": [],
+            "returns": [],
+            "type": "function",
+            "name": "StartConversation",
+            "comment": "",
+            "access": "client"
+        },
+        {
+            "functionName": "CancelConversation",
+            "parameters": [],
+            "returns": [],
+            "type": "function",
+            "name": "CancelConversation",
+            "comment": "",
+            "access": "client"
+        },
+        {
+            "functionName": "IsConversationIndexEquals",
+            "parameters": [
+                {
+                    "name": "index",
+                    "type": "number",
+                    "comment": "Starting from 1"
+                }
+            ],
+            "returns": [
+                {
+                  "name": "",
+                  "type": "boolean",
+                  "comment": ""
+                }],
+            "type": "function",
+            "name": "IsConversationIndexEquals",
+            "comment": "Checks the current conversion index",
+            "access": "client"
+        },
+        {
+            "eventName": "ConversationStarted",
+            "role": "sender",
+            "eventSourceType": "client",
+            "eventScope": "com.yahaha.community.horrorext",
+            "payload": [],
+            "type": "event",
+            "name": "ConversationStarted",
+            "comment": "",
+            "access": "client"
+        },
+        {
+            "eventName": "ConversationCanceled",
+            "role": "sender",
+            "eventSourceType": "client",
+            "eventScope": "com.yahaha.community.horrorext",
+            "payload": [],
+            "type": "event",
+            "name": "ConversationCanceled",
+            "comment": "",
+            "access": "client"
+        },
+        {
+            "eventName": "ConversationFinished",
+            "role": "sender",
+            "eventSourceType": "client",
+            "eventScope": "com.yahaha.community.horrorext",
+            "payload": [],
+            "type": "event",
+            "name": "ConversationFinished",
+            "comment": "",
+            "access": "client"
+        },
+        {
+            "eventName": "ConversationIndexChanged",
+            "role": "sender",
+            "eventSourceType": "client",
+            "eventScope": "com.yahaha.community.horrorext",
+            "payload": [],
+            "type": "event",
+            "name": "ConversationIndexChanged",
+            "comment": "",
+            "access": "client"
+        }
+    ]
+}
